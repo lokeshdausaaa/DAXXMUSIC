@@ -113,3 +113,5 @@ if SUPPORT_CHAT:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
         )
+2023-12-16T00:32:01.892954+00:00 app[worker.1]: ImportError: cannot import name 'OWNER_USERNAME' from 'config' (/app/config.py)
+2023-12-16T00:32:02
